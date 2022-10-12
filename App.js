@@ -5,8 +5,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { HomeScreen } from './components/pages/home/home';
-import { DevelopScreen } from './components/pages/develop/develop';
-import { ArchiveScreen } from './components/pages/archive/archive';
+import { DevelopScreen } from './components/pages/develop/developMainScreen';
+import { ArchiveScreen } from './components/pages/archive/archiveMainScreen';
 
 const Drawer = createDrawerNavigator();
 
